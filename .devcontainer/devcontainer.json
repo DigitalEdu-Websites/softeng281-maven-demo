@@ -1,0 +1,15 @@
+{
+  "name": "SOFTENG 281 Maven Demo",
+  // Java 21 (same as the course). Maven is NOT installed on purpose: students use the Maven wrapper (./mvnw).
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["src/main/java/Basics.java"]
+    },
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
